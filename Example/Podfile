@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'KeenPageView_Example' do
+  pod 'KeenPageView', :path => '../'
+
+  target 'KeenPageView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
