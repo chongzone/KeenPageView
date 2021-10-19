@@ -1,0 +1,16 @@
+PODS:
+  - KeenPageView (1.0.0)
+
+DEPENDENCIES:
+  - KeenPageView (from `../`)
+
+EXTERNAL SOURCES:
+  KeenPageView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KeenPageView: 3fa3e0d10022f93032e9961672749519c7efd98b
+
+PODFILE CHECKSUM: 1057c53e9185920f0de48f72bf5d3d463f04e26c
+
+COCOAPODS: 1.7.0

@@ -1,0 +1,6 @@
+framework module KeenPageView {
+  umbrella header "KeenPageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

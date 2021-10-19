@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05E10915D3F6F155CC5B2E3CF8D8DADA /* KeenUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D32229D4B432EC1432DD434B9CE82A3 /* KeenUtils.swift */; };
+		0727BFC4B9EFD34801A903F274DFFCC8 /* Pods-KeenPageView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D75BF72D305A11847FB21864795D4D /* Pods-KeenPageView_Tests-dummy.m */; };
+		0A2F4523FCFC95464E1340C27EF78829 /* KeenPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655D93AA2E09AD53C546C6A6FEF185AF /* KeenPageView.swift */; };
+		32B499D8648EB9EA41ABFBF9F4D1FCE6 /* KeenPageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A903DC9346DD413238F75DF142AC4 /* KeenPageView-dummy.m */; };
+		50A3E7AE945E3729DDA4CBB3376FBCD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		53A4CDFE8E33AF20B7FFF1D2831DB7C4 /* Pods-KeenPageView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4FF7C8524BC46B27E30D5A2686807DB /* Pods-KeenPageView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89478F0DA1550F25251FAA79D23E514A /* KeenPageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAFCC23CC8C89878D297BBB53C38442C /* KeenPageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C6F0EEB3C8EA8AEE934BD809BFC8681 /* Pods-KeenPageView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F6674034179FEE437CD545A4FF02C0 /* Pods-KeenPageView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D94471E9D0C735EDEF0E28F51A8C05C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9FB9E9751401EE36654AAF2629F62B45 /* Pods-KeenPageView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8D0E90418435B7DE73B23F0A18DE5 /* Pods-KeenPageView_Example-dummy.m */; };
+		CE34BAF65C43B18D288B8C08191A72F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F12037990633AB280284C3E7F717B510 /* KeenTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B30076C5278F640A32049ECF33F32 /* KeenTitleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F7044C8C49607705C37E3C506276EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F4D45E1C8DB3AA7C4B7745749EB3BD2;
+			remoteInfo = KeenPageView;
+		};
+		436D54EABFAD4917E96C55214912C1E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6D550CCA31BC1420BAF95874BFDD5C;
+			remoteInfo = "Pods-KeenPageView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13B795CDE102222FBDD379A18A2E0112 /* Pods-KeenPageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenPageView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		226CB0D3B48E3D1436009D8E8412E04B /* KeenPageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeenPageView.modulemap; sourceTree = "<group>"; };
+		2B5A903DC9346DD413238F75DF142AC4 /* KeenPageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeenPageView-dummy.m"; sourceTree = "<group>"; };
+		2D5916DE18AD0A6B0961D71D411D0B6C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		32A375FC945C2244E3B7D5D859F895B0 /* KeenPageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeenPageView.xcconfig; sourceTree = "<group>"; };
+		38D21501249E4FB8233AA86F16F4A1B4 /* Pods-KeenPageView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeenPageView_Example-Info.plist"; sourceTree = "<group>"; };
+		3C0503DA95B251BC24D32EE683637B2C /* Pods-KeenPageView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeenPageView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C6B82BFA3273F3195AC5550B3653C3D /* KeenPageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeenPageView.framework; path = KeenPageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4DA67DE36AB5AE0485B8B62CEFBFB8 /* KeenPageView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeenPageView-Info.plist"; sourceTree = "<group>"; };
+		456AC41088F1E579ED83A3DFC8ACB4E8 /* Pods-KeenPageView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeenPageView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E2EE6A2648C599E28EEC02818072C58 /* Pods-KeenPageView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeenPageView_Example.modulemap"; sourceTree = "<group>"; };
+		4FF4EAFBF3E950A86D4874D20FFF9C24 /* KeenPageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeenPageView-prefix.pch"; sourceTree = "<group>"; };
+		52AD440F4DE82611BC196B765F0F9EAB /* KeenPageView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KeenPageView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		52F6674034179FEE437CD545A4FF02C0 /* Pods-KeenPageView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeenPageView_Example-umbrella.h"; sourceTree = "<group>"; };
+		655D93AA2E09AD53C546C6A6FEF185AF /* KeenPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeenPageView.swift; path = KeenPageView/Classes/KeenPageView.swift; sourceTree = "<group>"; };
+		66D75BF72D305A11847FB21864795D4D /* Pods-KeenPageView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeenPageView_Tests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D32229D4B432EC1432DD434B9CE82A3 /* KeenUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeenUtils.swift; path = KeenPageView/Classes/KeenUtils.swift; sourceTree = "<group>"; };
+		849B30076C5278F640A32049ECF33F32 /* KeenTitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeenTitleView.swift; path = KeenPageView/Classes/KeenTitleView.swift; sourceTree = "<group>"; };
+		90456B7BAC5E5AA20546E3B6D5DCA494 /* Pods-KeenPageView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeenPageView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		913CD5DE5B45FBBBA4C19FCEA1553404 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F8B66D5BD427FFE5C40C9A9DBAE9C72 /* Pods_KeenPageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KeenPageView_Tests.framework; path = "Pods-KeenPageView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65AB47682E6DB3F180E20348EBA1317 /* Pods-KeenPageView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeenPageView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA2AFD3E2CE085B99A5FE1A51C461048 /* Pods-KeenPageView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeenPageView_Tests-Info.plist"; sourceTree = "<group>"; };
+		B0E8D0E90418435B7DE73B23F0A18DE5 /* Pods-KeenPageView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeenPageView_Example-dummy.m"; sourceTree = "<group>"; };
+		C35465F1B17B49A58482C335CCF77738 /* Pods-KeenPageView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeenPageView_Tests.modulemap"; sourceTree = "<group>"; };
+		E140AE56473B16C6AC904EAE717C5E4F /* Pods-KeenPageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenPageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E3C06F84F686097E63B0FAEF86D405C3 /* Pods-KeenPageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenPageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4FF7C8524BC46B27E30D5A2686807DB /* Pods-KeenPageView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeenPageView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E5587723E3303873ECF767293707683F /* Pods-KeenPageView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenPageView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EAFCC23CC8C89878D297BBB53C38442C /* KeenPageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeenPageView-umbrella.h"; sourceTree = "<group>"; };
+		F98D86DE650856EA668A75BC289AF4EF /* Pods_KeenPageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KeenPageView_Example.framework; path = "Pods-KeenPageView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAA71C4BF148572740038BE2F0FCDB4 /* Pods-KeenPageView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeenPageView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2791FFEDACFD8D53D6778607EE39BC0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A3E7AE945E3729DDA4CBB3376FBCD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3367EC98584474BA9EAA43F72D147184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D94471E9D0C735EDEF0E28F51A8C05C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FAE8AEBBC3C09641D829562D4F89BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE34BAF65C43B18D288B8C08191A72F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22A3CF17B313D5DF442D2DDD5A611646 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF103647C6E9FB19026A913540EBCF58 /* Pods-KeenPageView_Example */,
+				87DC2432C11B70068A983A1C024C6DF8 /* Pods-KeenPageView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C2359EC8D379588664EA10D89A039FD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				226CB0D3B48E3D1436009D8E8412E04B /* KeenPageView.modulemap */,
+				32A375FC945C2244E3B7D5D859F895B0 /* KeenPageView.xcconfig */,
+				2B5A903DC9346DD413238F75DF142AC4 /* KeenPageView-dummy.m */,
+				3E4DA67DE36AB5AE0485B8B62CEFBFB8 /* KeenPageView-Info.plist */,
+				4FF4EAFBF3E950A86D4874D20FFF9C24 /* KeenPageView-prefix.pch */,
+				EAFCC23CC8C89878D297BBB53C38442C /* KeenPageView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KeenPageView";
+			sourceTree = "<group>";
+		};
+		7D15E09A3FE6E9EB0210878EC692B6A7 /* KeenPageView */ = {
+			isa = PBXGroup;
+			children = (
+				655D93AA2E09AD53C546C6A6FEF185AF /* KeenPageView.swift */,
+				849B30076C5278F640A32049ECF33F32 /* KeenTitleView.swift */,
+				7D32229D4B432EC1432DD434B9CE82A3 /* KeenUtils.swift */,
+				E689E844676E8C0CF721F73347984CA4 /* Pod */,
+				7C2359EC8D379588664EA10D89A039FD /* Support Files */,
+			);
+			name = KeenPageView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		87DC2432C11B70068A983A1C024C6DF8 /* Pods-KeenPageView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C35465F1B17B49A58482C335CCF77738 /* Pods-KeenPageView_Tests.modulemap */,
+				FDAA71C4BF148572740038BE2F0FCDB4 /* Pods-KeenPageView_Tests-acknowledgements.markdown */,
+				A65AB47682E6DB3F180E20348EBA1317 /* Pods-KeenPageView_Tests-acknowledgements.plist */,
+				66D75BF72D305A11847FB21864795D4D /* Pods-KeenPageView_Tests-dummy.m */,
+				AA2AFD3E2CE085B99A5FE1A51C461048 /* Pods-KeenPageView_Tests-Info.plist */,
+				E4FF7C8524BC46B27E30D5A2686807DB /* Pods-KeenPageView_Tests-umbrella.h */,
+				E3C06F84F686097E63B0FAEF86D405C3 /* Pods-KeenPageView_Tests.debug.xcconfig */,
+				E5587723E3303873ECF767293707683F /* Pods-KeenPageView_Tests.release.xcconfig */,
+			);
+			name = "Pods-KeenPageView_Tests";
+			path = "Target Support Files/Pods-KeenPageView_Tests";
+			sourceTree = "<group>";
+		};
+		AF103647C6E9FB19026A913540EBCF58 /* Pods-KeenPageView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4E2EE6A2648C599E28EEC02818072C58 /* Pods-KeenPageView_Example.modulemap */,
+				3C0503DA95B251BC24D32EE683637B2C /* Pods-KeenPageView_Example-acknowledgements.markdown */,
+				456AC41088F1E579ED83A3DFC8ACB4E8 /* Pods-KeenPageView_Example-acknowledgements.plist */,
+				B0E8D0E90418435B7DE73B23F0A18DE5 /* Pods-KeenPageView_Example-dummy.m */,
+				90456B7BAC5E5AA20546E3B6D5DCA494 /* Pods-KeenPageView_Example-frameworks.sh */,
+				38D21501249E4FB8233AA86F16F4A1B4 /* Pods-KeenPageView_Example-Info.plist */,
+				52F6674034179FEE437CD545A4FF02C0 /* Pods-KeenPageView_Example-umbrella.h */,
+				E140AE56473B16C6AC904EAE717C5E4F /* Pods-KeenPageView_Example.debug.xcconfig */,
+				13B795CDE102222FBDD379A18A2E0112 /* Pods-KeenPageView_Example.release.xcconfig */,
+			);
+			name = "Pods-KeenPageView_Example";
+			path = "Target Support Files/Pods-KeenPageView_Example";
+			sourceTree = "<group>";
+		};
+		AF4471F30C0F076FC9E90A4DE7CD7B43 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D15E09A3FE6E9EB0210878EC692B6A7 /* KeenPageView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AF4471F30C0F076FC9E90A4DE7CD7B43 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D7E09D05391C2A734818B14E265AD7CE /* Products */,
+				22A3CF17B313D5DF442D2DDD5A611646 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7E09D05391C2A734818B14E265AD7CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C6B82BFA3273F3195AC5550B3653C3D /* KeenPageView.framework */,
+				F98D86DE650856EA668A75BC289AF4EF /* Pods_KeenPageView_Example.framework */,
+				9F8B66D5BD427FFE5C40C9A9DBAE9C72 /* Pods_KeenPageView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E689E844676E8C0CF721F73347984CA4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				52AD440F4DE82611BC196B765F0F9EAB /* KeenPageView.podspec */,
+				913CD5DE5B45FBBBA4C19FCEA1553404 /* LICENSE */,
+				2D5916DE18AD0A6B0961D71D411D0B6C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1EC0E45148E186E156F5D8572D6FAF3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89478F0DA1550F25251FAA79D23E514A /* KeenPageView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559B06AC244CAF450CA9FFE60E434754 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6F0EEB3C8EA8AEE934BD809BFC8681 /* Pods-KeenPageView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB493B82D211645806204E7DD3806875 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A4CDFE8E33AF20B7FFF1D2831DB7C4 /* Pods-KeenPageView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1568616DFF49348DCAD2D1D1517848DD /* Pods-KeenPageView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53516347608425A0A792DD44AD3E23BD /* Build configuration list for PBXNativeTarget "Pods-KeenPageView_Tests" */;
+			buildPhases = (
+				EB493B82D211645806204E7DD3806875 /* Headers */,
+				BDEB0369A36C290CB408B4B49094E346 /* Sources */,
+				2791FFEDACFD8D53D6778607EE39BC0C /* Frameworks */,
+				9BA5550A67718B5EAA814BB761E1DF91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13647408714A1F49E8BC4D376EAC0726 /* PBXTargetDependency */,
+			);
+			name = "Pods-KeenPageView_Tests";
+			productName = "Pods-KeenPageView_Tests";
+			productReference = 9F8B66D5BD427FFE5C40C9A9DBAE9C72 /* Pods_KeenPageView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F4D45E1C8DB3AA7C4B7745749EB3BD2 /* KeenPageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C580CA9C544CB5AE5A296CA85E01A1A1 /* Build configuration list for PBXNativeTarget "KeenPageView" */;
+			buildPhases = (
+				1EC0E45148E186E156F5D8572D6FAF3A /* Headers */,
+				6BE2A13E4093B89161F6FE6F82951795 /* Sources */,
+				8FAE8AEBBC3C09641D829562D4F89BCD /* Frameworks */,
+				E824610102985489AE72487487390A41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeenPageView;
+			productName = KeenPageView;
+			productReference = 3C6B82BFA3273F3195AC5550B3653C3D /* KeenPageView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB6D550CCA31BC1420BAF95874BFDD5C /* Pods-KeenPageView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE87766595F8521DB72E9C289631E76 /* Build configuration list for PBXNativeTarget "Pods-KeenPageView_Example" */;
+			buildPhases = (
+				559B06AC244CAF450CA9FFE60E434754 /* Headers */,
+				E35F5A52CC07FC460CFB287785C4FFEA /* Sources */,
+				3367EC98584474BA9EAA43F72D147184 /* Frameworks */,
+				352BAF610853A92D19AAE5F136F95F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F73C3D581DC92E4EB4ABF3879CDBF564 /* PBXTargetDependency */,
+			);
+			name = "Pods-KeenPageView_Example";
+			productName = "Pods-KeenPageView_Example";
+			productReference = F98D86DE650856EA668A75BC289AF4EF /* Pods_KeenPageView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D7E09D05391C2A734818B14E265AD7CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F4D45E1C8DB3AA7C4B7745749EB3BD2 /* KeenPageView */,
+				BB6D550CCA31BC1420BAF95874BFDD5C /* Pods-KeenPageView_Example */,
+				1568616DFF49348DCAD2D1D1517848DD /* Pods-KeenPageView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		352BAF610853A92D19AAE5F136F95F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA5550A67718B5EAA814BB761E1DF91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E824610102985489AE72487487390A41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BE2A13E4093B89161F6FE6F82951795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2F4523FCFC95464E1340C27EF78829 /* KeenPageView.swift in Sources */,
+				32B499D8648EB9EA41ABFBF9F4D1FCE6 /* KeenPageView-dummy.m in Sources */,
+				F12037990633AB280284C3E7F717B510 /* KeenTitleView.swift in Sources */,
+				05E10915D3F6F155CC5B2E3CF8D8DADA /* KeenUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEB0369A36C290CB408B4B49094E346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0727BFC4B9EFD34801A903F274DFFCC8 /* Pods-KeenPageView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35F5A52CC07FC460CFB287785C4FFEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB9E9751401EE36654AAF2629F62B45 /* Pods-KeenPageView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13647408714A1F49E8BC4D376EAC0726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KeenPageView_Example";
+			target = BB6D550CCA31BC1420BAF95874BFDD5C /* Pods-KeenPageView_Example */;
+			targetProxy = 436D54EABFAD4917E96C55214912C1E1 /* PBXContainerItemProxy */;
+		};
+		F73C3D581DC92E4EB4ABF3879CDBF564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeenPageView;
+			target = 6F4D45E1C8DB3AA7C4B7745749EB3BD2 /* KeenPageView */;
+			targetProxy = 1F7044C8C49607705C37E3C506276EAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		291400E849C13EFF1FDDF78541A25552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32A375FC945C2244E3B7D5D859F895B0 /* KeenPageView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeenPageView/KeenPageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeenPageView/KeenPageView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeenPageView/KeenPageView.modulemap";
+				PRODUCT_MODULE_NAME = KeenPageView;
+				PRODUCT_NAME = KeenPageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31157E3C76DFBBA10CEC3D6A6EC21528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E140AE56473B16C6AC904EAE717C5E4F /* Pods-KeenPageView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeenPageView_Example/Pods-KeenPageView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeenPageView_Example/Pods-KeenPageView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6DA5A998063ECC6EC2A75BBC70FC90A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5587723E3303873ECF767293707683F /* Pods-KeenPageView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeenPageView_Tests/Pods-KeenPageView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeenPageView_Tests/Pods-KeenPageView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FA65F867C679DF5CBCCB163349C42A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32A375FC945C2244E3B7D5D859F895B0 /* KeenPageView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeenPageView/KeenPageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeenPageView/KeenPageView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeenPageView/KeenPageView.modulemap";
+				PRODUCT_MODULE_NAME = KeenPageView;
+				PRODUCT_NAME = KeenPageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C325C88B4E51B9A1B867EFC7937A9156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3C06F84F686097E63B0FAEF86D405C3 /* Pods-KeenPageView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeenPageView_Tests/Pods-KeenPageView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeenPageView_Tests/Pods-KeenPageView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8680F1220DB88287838515A77E3192A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13B795CDE102222FBDD379A18A2E0112 /* Pods-KeenPageView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeenPageView_Example/Pods-KeenPageView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeenPageView_Example/Pods-KeenPageView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CE87766595F8521DB72E9C289631E76 /* Build configuration list for PBXNativeTarget "Pods-KeenPageView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31157E3C76DFBBA10CEC3D6A6EC21528 /* Debug */,
+				C8680F1220DB88287838515A77E3192A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */,
+				C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53516347608425A0A792DD44AD3E23BD /* Build configuration list for PBXNativeTarget "Pods-KeenPageView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C325C88B4E51B9A1B867EFC7937A9156 /* Debug */,
+				6DA5A998063ECC6EC2A75BBC70FC90A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C580CA9C544CB5AE5A296CA85E01A1A1 /* Build configuration list for PBXNativeTarget "KeenPageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA65F867C679DF5CBCCB163349C42A9 /* Debug */,
+				291400E849C13EFF1FDDF78541A25552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
