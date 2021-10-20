@@ -10,7 +10,7 @@ import UIKit
 public extension KeenTitleAttributes {
     
     /// 标题样式
-    enum style {
+    enum Style {
         /// 默认
         case `default`
         /// 缩放
@@ -37,7 +37,7 @@ public struct KeenTitleAttributes {
     public var viewBackColor: UIColor = UIColor.clear
     
     /// 样式  默认下划线
-    public var style: KeenTitleAttributes.style = .underline
+    public var style: KeenTitleAttributes.Style = .underline
     /// 布局样式 默认自动
     public var layout: KeenTitleAttributes.layoutMode = .automatic
     
