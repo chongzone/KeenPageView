@@ -2,20 +2,20 @@
 
 ![CI Status](https://img.shields.io/travis/chongzone/KeenPageView.svg?style=flat)
 ![](https://img.shields.io/badge/swift-5.0%2B-orange.svg?style=flat)
-![](https://img.shields.io/badge/pod-v1.0.1-brightgreen.svg?style=flat)
-![](https://img.shields.io/badge/platform-iOS-orange.svg?style=flat)
+![](https://img.shields.io/badge/pod-v1.0.2-brightgreen.svg?style=flat)
+![](https://img.shields.io/badge/platform-iOS-9.0%2B-orange.svg?style=flat)
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## 效果样式 
 
 样式说明 | Gif 图 |
 ----|------|
-默认样式 |  <img src="https://raw.githubusercontent.com/chongzone/KeenPageView/master/Resources/Keenpage_01.gif" width="320" height="95"> |
-缩放样式 |  <img src="https://raw.githubusercontent.com/chongzone/KeenPageView/master/Resources/Keenpage_02.gif" width="320" height="95"> |
-遮罩样式 |  <img src="https://raw.githubusercontent.com/chongzone/KeenPageView/master/Resources/Keenpage_03.gif" width="320" height="95"> |
-下划线样式 |  <img src="https://raw.githubusercontent.com/chongzone/KeenPageView/master/Resources/Keenpage_04.gif" width="320" height="95"> |
-其他样式 |  <img src="https://raw.githubusercontent.com/chongzone/KeenPageView/master/Resources/Keenpage_05.gif" width="320" height="95"> |
-其他样式 |  <img src="https://raw.githubusercontent.com/chongzone/KeenPageView/master/Resources/Keenpage_06.gif" width="320" height="95"> |
+默认样式 |  <img src="https://raw.githubusercontent.com/chongzone/KeenPageView/master/Resources/Keenpage_01.gif" width="318" height="97"> |
+缩放样式 |  <img src="https://raw.githubusercontent.com/chongzone/KeenPageView/master/Resources/Keenpage_02.gif" width="318" height="97"> |
+遮罩样式 |  <img src="https://raw.githubusercontent.com/chongzone/KeenPageView/master/Resources/Keenpage_03.gif" width="318" height="97"> |
+下划线样式 |  <img src="https://raw.githubusercontent.com/chongzone/KeenPageView/master/Resources/Keenpage_04.gif" width="318" height="97"> |
+其他样式 |  <img src="https://raw.githubusercontent.com/chongzone/KeenPageView/master/Resources/Keenpage_05.gif" width="318" height="97"> |
+其他样式 |  <img src="https://raw.githubusercontent.com/chongzone/KeenPageView/master/Resources/Keenpage_06.gif" width="318" height="97"> |
 
 ## API 说明
 
